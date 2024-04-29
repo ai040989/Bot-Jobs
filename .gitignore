@@ -1,0 +1,6 @@
+# Dossiers
+node_modules/
+coverage/
+
+# Fichiers
+.env

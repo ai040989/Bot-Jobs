@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interface Utilisateur du Bot Web</title>
+  <!-- Liens vers les fichiers CSS -->
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+
+</head>
+<body>
+  <header>
+    <h1>Bot Web UI</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Accueil</a></li>
+        <li><a href="/config">Configuration</a></li>
+        <!-- Ajoute d'autres liens ici -->
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="search">
+        <h2>Recherche d'offres d'emploi</h2>
+        <form id="search-form">
+            <input type="text" id="search-keyword" placeholder="Mot-clé">
+            <input type="submit" value="Rechercher">
+        </form>
+    </section>
+</main>
+    
+    <section id="results">
+      <h2>Résultats de la recherche</h2>
+      <ul id="job-listings">
+        <!-- Les résultats de la recherche seront ajoutés ici dynamiquement -->
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Bot Web</p>
+  </footer>
+
+  <!-- Scripts JavaScript -->
+  <script src="client.js"></script>
+</body>
+</html>
+
+
+
+
+
